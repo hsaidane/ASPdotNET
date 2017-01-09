@@ -1,0 +1,36 @@
+Microsoft Visual Studio - 
+
+.NET core notes...
+Make sure to download the latest .NET core 
+https://www.microsoft.com/net/core#windowsvs2015
+
+
+1) File new - Project
+   Templates, select Web
+   ASP.NET Core Web Application
+   From pop up windows select Web Application
+   Click "Change Authentication" and select 'No Authentication"
+For Azure skip, cancel.
+
+View: To add a view , add a new folder 'Game'
+Add - New Item - .NET Core - MVC View Page.
+Create (ei: index.cshtml, and Create.cshtml)>
+
+Controllers:
+  Right click on Controllers folder, then click Add
+  select .NET CORE, and select MVC Controller Class..
+   Name: GameController.cs
+
+Create a new Folder : Models , in the same tree as View and Controllers..
+
+  Right click Models folder, and then select Add (Left pane 'Code', right pane "Class").
+  Name : Game.cs
+
+
+Click 'ISS Express' to compile and launch application.
+http://localhost:54004/
+To launch the Game app.
+http://localhost:54004/Game
+
+
+   
